@@ -259,7 +259,7 @@
         async function fetchLeaderboardData() {
             try {
               
-                const response = await fetch('https://a3eaba30-5ec2-4fe2-a045-bb95e87941d5-00-g8t2qjjvokpx.sisko.replit.dev:5000/leaderboard/top20');
+                const response = await fetch('https://noted-natural-variety-reddymodith.replit.app/leaderboard/top20');
                 
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: $${response.status}`);
@@ -346,7 +346,7 @@
             if (position === 20) {
                 html += `
                     <div class="my-4 p-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl text-center animate-pulse">
-                        <p class="text-white text-lg font-bold">11th February 2025 to 22th February 2025</p>
+                        <p class="text-white text-lg font-bold">11th February 2025 to 11th March 2025</p>
                     </div>
                 `;
             }
@@ -396,7 +396,7 @@
             }
         }
 
-        const countDownDate = new Date("2025-02-22T23:59:59").getTime();
+        const countDownDate = new Date("2025-03-11T16:29:59").getTime();
 
         function updateCountdown() {
             const now = new Date().getTime();
