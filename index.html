@@ -417,13 +417,6 @@
                 </div>
             `;
 
-            if (distance < 0) {
-                clearInterval(countdownTimer);
-                document.getElementById("countdown").innerHTML = "EXPIRED";
-                document.getElementById("countdown-overlay").style.display = "flex";
-                document.body.style.overflow = "hidden";
-            }
-        }
 
         const countdownTimer = setInterval(updateCountdown, 1000);
 
